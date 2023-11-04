@@ -17,15 +17,15 @@
 
 8. 每個音檔的原始影片資訊記錄於 video_infor.tsv
 
-###############
+###############################################
 
 產出詞彙PVI(corpus_word_list.tsv)步驟：
 
-1.準備data：corpus_syll_f0dB.tsv 以及 corpus_word_tokens.tsv。
+1. 準備data：corpus_syll_f0dB.tsv 以及 corpus_word_tokens.tsv。
 
-2.執行04_word_list.R產出word_lst_final輸出。
+2. 執行04_word_list.R產出word_lst_final輸出。
 
-3.如需pos tag，將產出檔以word_pos.ipynb繼續執行後另存。
+3. 如需pos tag，將產出檔以word_pos.ipynb繼續執行後另存。
 
 
 * 如需以semintone計算PVI：
