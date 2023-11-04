@@ -27,11 +27,13 @@
 
 3.如需pos tag，將產出檔以word_pos.ipynb繼續執行後另存。
 
+
 * 如需以semintone計算PVI：
 
 4. 讀入corpus_syll_f0dB.tsv檔時新增 %>% mutate_at("f0", ~(f2st(., base = 自行修改 ) %>% as.numeric))
 
 5. 正常執行04_word_list.R。
+
 
 * 如需修正f0擷取設定：
 
